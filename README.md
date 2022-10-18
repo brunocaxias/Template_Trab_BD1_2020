@@ -32,8 +32,6 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
 ![alt text](https://github.com/brunocaxias/Template_Trab_BD1_2020/blob/ac09cadcf545cf506ab202f87bae5f0526e82cdc/TelaLoginPrototipacao.png?raw=true)
 Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/proto/lOYiVAEGe42BUPwycpDP1I/Untitled?node-id=19%3A77&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
