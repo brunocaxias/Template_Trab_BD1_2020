@@ -35,7 +35,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-Projeto no Figma (Link para apresentação funciona :https://www.figma.com/proto/lOYiVAEGe42BUPwycpDP1I/Untitled?node-id=19%3A77&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
+Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/proto/lOYiVAEGe42BUPwycpDP1I/Untitled?node-id=19%3A77&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
