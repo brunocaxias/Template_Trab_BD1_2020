@@ -34,7 +34,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
+![Alt text](https://github.com/brunocaxias/Template_Trab_BD1_2020/blob/c0470ad2527801cd63b7f823ccb1604b0c663f72/1%20-%20Tela%20de%20Login%20-%20secret%C3%A1rio.pdf?raw=true "Title")
 Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/proto/lOYiVAEGe42BUPwycpDP1I/Untitled?node-id=19%3A77&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
