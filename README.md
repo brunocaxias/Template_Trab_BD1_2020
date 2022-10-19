@@ -8,7 +8,7 @@ Integrantes do grupo<br>
 Bruno Caxias: bccaxias03.bc@gmail.com <br>
 Vinicius Estevam: vinicius.estevam99@gmail.com <br>
 João Vitor Maciel: jvmacielv@gmail.com <br>
-Marcos Vinicius Faria: <br>
+Marcos Vinicius Faria: marcosfaria03@hotmail.com<br>
 ...<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
