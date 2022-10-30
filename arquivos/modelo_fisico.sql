@@ -47,7 +47,7 @@ CREATE TABLE consulta(
   	hora TIME,
   	descricao VARCHAR(200),
   	FOREIGN KEY (id_medico) REFERENCES medico (id),
- 	FOREIGN KEY (id_cliente) REFERENCES cliente (ID)
+ 	FOREIGN KEY (id_cliente) REFERENCES cliente (id)
 );
 
 -- Cria a tabela exame
@@ -69,8 +69,8 @@ CREATE TABLE consulta_exame(
   	hora TIME,
   	sintomas VARCHAR(200),
   	FOREIGN KEY (id_consulta) REFERENCES consulta (id),
- 	FOREIGN KEY (id_funcionario) REFERENCES funcionario (ID),
- 	FOREIGN KEY (id_exame) REFERENCES exame (ID)
+ 	FOREIGN KEY (id_funcionario) REFERENCES funcionario (id),
+ 	FOREIGN KEY (id_exame) REFERENCES exame (id)
 );
 
 -- Cria a tabela medicamento
@@ -87,5 +87,5 @@ CREATE TABLE consulta_medicamento(
   	id_consulta INTEGER NOT NULL,
  	quantidade INTEGER,
   	FOREIGN KEY (id_medicamento) REFERENCES medicamento (id),
- 	FOREIGN KEY (id_consulta) REFERENCES consulta (ID)
+ 	FOREIGN KEY (id_consulta) REFERENCES consulta (id)
 );
