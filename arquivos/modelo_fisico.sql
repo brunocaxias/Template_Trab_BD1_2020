@@ -2,7 +2,7 @@
 CREATE TABLE pessoa(
 	id SERIAL PRIMARY KEY NOT NULL,
   	nome VARCHAR(50),
-  	cpf INTEGER,
+  	cpf VARCHAR(50),
   	data_nascimento DATE
 );
 
