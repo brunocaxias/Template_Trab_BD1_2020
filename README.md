@@ -72,8 +72,12 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+<!--[Grupo01]: [Nomes dos que participaram na avaliação]
+[Grupo02]: [Nomes dos que participaram na avaliação]-->
+Bruno Caxias<br>
+João Vitor Maciel<br>
+Marcos Vinicius Faria<br>
+Vinicius Estevam
 
 #### 5.2 Descrição dos dados 
 <!--[objeto]: [descrição do objeto]
