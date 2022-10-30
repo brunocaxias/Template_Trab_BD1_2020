@@ -1,15 +1,15 @@
-# TRABALHO 01:  Título do Trabalho
-Trabalho desenvolvido durante a disciplina de BD1
+<!--<h1 align='center'>TRABALHO 01</h1>-->
+<h1 align='center'>🩺 GotoDoc - Sistema de gerenciamento de consultas</h1>
+<h2 align='center'>Trabalho desenvolvido durante a disciplina de BD1</h2>
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Bruno Caxias: bccaxias03.bc@gmail.com <br>
-Vinicius Estevam: vinicius.estevam99@gmail.com <br>
-João Vitor Maciel: jvmacielv@gmail.com <br>
-Marcos Vinicius Faria: marcosfaria03@hotmail.com<br>
-...<br>
+Bruno Caxias: bccaxias03.bc@gmail.com - [github](https://github.com/brunocaxias)  <br>
+João Vitor Maciel: jvmacielv@gmail.com - [github](https://github.com/Maciel-Dev) <br>
+Marcos Vinicius Faria: marcosfaria03@hotmail.com - [github](https://github.com/mvmfaria) <br>
+Vinicius Estevam: vinicius.estevam99@gmail.com - [github](https://github.com/vinicius-je) <br> 
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
@@ -20,17 +20,17 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
+<!--Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
 Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente  real)<br>
 Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.-->
 
 > Uma rede hospitalar “GotoDoc” deseja desenvolver um sistema chamado “GoDoc” para gerenciar consultas e exames que acontecem em seus hospitais. Os hospitais abrangidos pelo sistema a ser desenvolvido possuem funcionários, que podem ser médicos, enfermeiros ou secretários, de todas as pessoas cadastradas no sistema deve-se armazenar um endereço e telefone. Para os médicos, o sistema contém o nome, o CRM e a especialização deles. Tanto para os funcionários no geral quanto para os pacientes a serem incluídos no sistema, é necessário ter no registro o nome, a data de nascimento e o CPF. Além disso, deve-se registrar dos pacientes uma descrição de qual convênio eles pertencem e dos funcionários nome da função e código. Como o propósito geral do sistema é de agendamento de consultas e exames, o sistema deve alocar os médicos de acordo com suas especializações para atender aos pacientes. Como resultado da consulta, que possui uma data e hora marcadas a serem registradas pelo sistema, o médico pode receitar um ou mais medicamentos, um ou mais exames ou ambos. Para os medicamentos, o sistema deve armazenar a quantidade receitada, o princípio ativo do medicamento e seu nome comercial. Já para os exames, o sistema deve armazenar qual tipo de exame foi realizado, o horário e o dia que aconteceu e uma descrição a depender da reação do paciente ao exame. Pacientes podem marcar várias ou nenhuma consultas e a partir da consulta médico pode pedir a secretário que marque ou não um exame para o paciente, exames podem ser feitos por médicos ou enfermeiros a depender do exame, exames são marcados apenas por secretários, pacientes ou médicos devem pedir ao secretário para que marque um exame com base em horários disponíveis. Pacientes podem pedir ao secretário que envie um relatório de um exame e também podem pedir uma cópia da receita dos remédios receitados em uma consulta. A qualquer momento deve-se poder fazer um relatório com todas as consultas por paciente e os medicamentos receitados na consulta, também deve-se poder fazer um relatório de todas as consultas que foram realizadas em um paciente. Exames e consultas têm preços de pagamento que podem ser pagos ao final do mês no formato de boleto ou pré-pagos antes da consulta em dinheiro ou cartão de crédito. Pacientes podem escolher aderir a um programa de fidelidade para receber descontos de 5% em exames e consultas, o critério de fidelidade é consultar ou marcar um exame pelo menos 3 vezes por ano. Os médicos com a maior quantidade de consultas ao final de cada ano recebem um prêmio da empresa com o título: “God Doctor: the good doctor”.
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+<!--Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>-->
 
 ![alt text](https://github.com/brunocaxias/Template_Trab_BD1_2020/blob/ac09cadcf545cf506ab202f87bae5f0526e82cdc/TelaLoginPrototipacao.png?raw=true)
 Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/proto/lOYiVAEGe42BUPwycpDP1I/Untitled?node-id=19%3A77&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
@@ -43,7 +43,7 @@ Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/pro
 * Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
 * Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no  departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
 * Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes. 
->> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. 
+<!-->> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. -->
 * Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
 
  
@@ -56,14 +56,14 @@ Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/pro
     
     
 ### 5.MODELO CONCEITUAL<br>
-    A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
+<!--A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
     B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
         * informe quais são as 3 principais entidades do sistema em densenvolvimento<br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
     C) Principais fluxos de informação/entidades do sistema (mínimo 3). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados 
     D) Qualidade e Clareza
         Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas (Aplicar os conceitos de normalização abordados).   
+        e tuplas falsas (Aplicar os conceitos de normalização abordados).   -->
         
 ![Modelo Conceitual](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo-conceitual.png?raw=true)
     
@@ -81,8 +81,6 @@ EXEMPLO:
 CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
 CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>-->
 
-    
-    
 | Tabela | Descrição | Herança |
 |:-------|:----------|:--------|
 | PESSOA |Armazena as informações relativas a pessoa|   |
