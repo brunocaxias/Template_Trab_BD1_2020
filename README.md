@@ -53,7 +53,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     
-![Exemplo de Tabela de dados da Empresa GotoDoc](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/arquivos/Exemplo%20Tabela%20de%20Dados%20GotoDoc.xlsx "Tabela - Empresa GotoDoc")
+![Exemplo de Tabela de dados da Empresa GotoDoc]([https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/arquivos/Exemplo%20Tabela%20de%20Dados%20GotoDoc.xlsx](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fbrunocaxias%2FTrab_BD1_2022-2%2Fmaster%2Farquivos%2FExemplo%2520Tabela%2520de%2520Dados%2520GotoDoc.xlsx&wdOrigin=BROWSELINK) "Tabela - Empresa GotoDoc")
     
     
 ### 5.MODELO CONCEITUAL<br>
