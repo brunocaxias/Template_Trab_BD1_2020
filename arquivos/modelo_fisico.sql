@@ -53,9 +53,6 @@ CREATE TABLE consulta(
 -- Cria a tabela exame
 CREATE TABLE exame(
 	id SERIAL PRIMARY KEY NOT NULL,
-  	data DATE,
-  	hora TIME,
-  	sintomas VARCHAR(200),
   	tipo VARCHAR(50)
 );
 
