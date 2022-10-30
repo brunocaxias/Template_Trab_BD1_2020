@@ -83,13 +83,19 @@ Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/pro
 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+            
+<!--
+a) inclusão do esquema lógico do banco de dados
+b) verificação de correspondencia com o modelo conceitual 
+(não serão aceitos modelos que não estejam em conformidade)
+-->
+           
+![Modelo Lógico](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo-logico.png?raw=true)
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
+<!--a) inclusão das instruções de criacão das estruturas em SQL/DDL 
+(criação de tabelas, alterações, etc..) 
+-->
         
        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
