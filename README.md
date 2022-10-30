@@ -32,8 +32,8 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 <!--Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>-->
 
-![alt text](https://github.com/brunocaxias/Template_Trab_BD1_2020/blob/ac09cadcf545cf506ab202f87bae5f0526e82cdc/TelaLoginPrototipacao.png?raw=true)
-Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/proto/lOYiVAEGe42BUPwycpDP1I/Untitled?node-id=19%3A77&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
+![Protótipo](https://github.com/brunocaxias/Template_Trab_BD1_2020/blob/ac09cadcf545cf506ab202f87bae5f0526e82cdc/TelaLoginPrototipacao.png?raw=true)
+[Link do Protótipo no Figma](https://www.figma.com/proto/lOYiVAEGe42BUPwycpDP1I/Untitled?node-id=19%3A77&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1)
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
@@ -43,8 +43,9 @@ Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/pro
 * Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
 * Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no  departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
 * Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes. 
-<!-->> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. -->
 * Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
+<!-- ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. -->
+
 
  
  
