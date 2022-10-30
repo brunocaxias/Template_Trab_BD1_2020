@@ -38,13 +38,13 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
-* Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
-* Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no  departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
-* Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes. 
-* Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
-<!-- ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. -->
+> A Empresa GotoDoc precisa inicialmente dos seguintes relatórios:
+* Relatório que mostre todas os Clientes, retornando as consultas e/ou exames realizados, os profissionais que atenderam em cada procedimento.
+* Relatório relativo a cada funcionário. Nesse relatório deve constar quais consultas e exames o funcionário realizou, quais medicamentos foram passados em cada procedimento.
+* Relatório que liste todos os medicamentos disponíveis para um determinado paciente, retornando na linha da consulta, o nome do medicamento, seu princípio ativo e sua descrição. Retornar também o nome do paciente.
+* Relatório que mostre informações gerais de uma consulta. Não deve excluir a possibilidade da relação entre consulta e exame, uma vez que, se consulta gera exame, esse deve conter na tabela, e caso não haja exame, o campo deve ser nulo. Sendo assim, a busca deve conter: id da consulta, data, hora e descrição, id do exame, tipo, data, hora, sintomas, além das informações completas do médico e/ou enfermeiro. 
+* Relatório que apresente as receitas de uma consulta.
+<!-- ##### Observações: <br> a) perceba que este relatório pode conter receitas já prescrevidas em algum determinado momento, porém, para um paciente diferente, ou, em uma data diferente. <br>  b) Caso não haja receita, a relação pode contemplar um valor nulo, uma vez que, nenhum medicamento foi requisitado pelo médico para que o paciente possa fazer uso. -->
 
 
  
