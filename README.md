@@ -75,11 +75,26 @@ Projeto no Figma (Link para apresentação funcional) :https://www.figma.com/pro
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
+<!--[objeto]: [descrição do objeto]
+
+EXEMPLO:
+CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
+CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>-->
+
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    
+| Tabela | Descrição | Herança |
+|:-------|:----------|:--------|
+| PESSOA |Armazena as informações relativas a pessoa|   |
+| CLIENTE |Armazena as informações relativas ao cliente| PESSOA |
+| FUNCIONARIO |Armazena as informações relativas ao funcionário| PESSOA |
+| MEDICO |Armazena as informações relativas ao médico| FUNCIONARIO |
+| ENFERMEIRO |Armazena as informações relativas ao enfermeiro| FUNCIONARIO |
+| CONSULTA |Armazena as informações relativas a consulta|   |
+| EXAME |Armazena as informações relativas ao exame|   |
+| MEDICAMENTO |Armazena as informações relativas ao medicamento|   |
+| CONSULTA_MEDICAMENTO |Armazena as informações relativas aos medicamentos receitados na consulta|   |
+| CONSULTA_EXAME |Armazena as informações relativas aos exames solicitados na consulta|   |
 
 
 ### 6	MODELO LÓGICO<br>
