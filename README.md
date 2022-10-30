@@ -1,5 +1,5 @@
 <!--<h1 align='center'>TRABALHO 01</h1>-->
-<h1 align='center'>🩺 GotoDoc - Sistema de gerenciamento de consultas</h1>
+<h1 align='center'>🩺 GotoDoc - Sistema de Gerenciamento de Consultas</h1>
 <h2 align='center'>Trabalho desenvolvido durante a disciplina de BD1</h2>
 
 # Sumário
