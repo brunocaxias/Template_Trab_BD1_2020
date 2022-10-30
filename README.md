@@ -44,7 +44,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
 * Relatório que liste todos os medicamentos disponíveis para um determinado paciente, retornando na linha da consulta, o nome do medicamento, seu princípio ativo e sua descrição. Retornar também o nome do paciente.
 * Relatório que mostre informações gerais de uma consulta. Não deve excluir a possibilidade da relação entre consulta e exame, uma vez que, se consulta gera exame, esse deve conter na tabela, e caso não haja exame, o campo deve ser nulo. Sendo assim, a busca deve conter: id da consulta, data, hora e descrição, id do exame, tipo, data, hora, sintomas, além das informações completas do médico e/ou enfermeiro. 
 * Relatório que apresente as receitas de uma consulta.
-<!-- ##### Observações: <br> a) perceba que este relatório pode conter receitas já prescrevidas em algum determinado momento, porém, para um paciente diferente, ou, em uma data diferente. <br>  b) Caso não haja receita, a relação pode contemplar um valor nulo, uma vez que, nenhum medicamento foi requisitado pelo médico para que o paciente possa fazer uso. -->
+##### Observações: <br> a) perceba que este relatório pode conter receitas já prescrevidas em algum determinado momento, porém, para um paciente diferente, ou, em uma data diferente. <br>  b) Caso não haja receita, a relação pode contemplar um valor nulo, uma vez que, nenhum medicamento foi requisitado pelo médico para que o paciente possa fazer uso.
 
 
  
