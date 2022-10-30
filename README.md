@@ -111,11 +111,11 @@ b) verificação de correspondencia com o modelo conceitual
 ![Modelo Lógico](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo-logico.png?raw=true)
 
 ### 7	MODELO FÍSICO<br>
+[Modelo Físico](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/arquivos/modelo_fisico.sql)
 <!--a) inclusão das instruções de criacão das estruturas em SQL/DDL 
 (criação de tabelas, alterações, etc..) 
 -->
-        
-       
+               
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
         (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
