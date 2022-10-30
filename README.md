@@ -122,7 +122,7 @@ b) verificação de correspondencia com o modelo conceitual
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
-
+[Arquivo de Inserts ](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/arquivos/inserts.sql)
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
