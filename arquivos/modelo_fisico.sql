@@ -52,8 +52,7 @@ CREATE TABLE consulta(
 	id SERIAL PRIMARY KEY NOT NULL,
   	id_medico INTEGER NOT NULL,
   	id_cliente INTEGER NOT NULL,
-  	data DATE,
-  	hora TIME,
+	data_hora TIMESTAMP,
   	descricao VARCHAR(200),
   	FOREIGN KEY (id_medico) REFERENCES pessoa (id),
  	FOREIGN KEY (id_cliente) REFERENCES pessoa (id)
