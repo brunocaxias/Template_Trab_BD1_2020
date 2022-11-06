@@ -73,6 +73,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
     
 #### 5.1 Validação do Modelo Conceitual
 [Grupo01]: [Josué Ramos Souza, Luiz Sampaio Horta, Mateus Lannes Cunha]
+
 [Grupo02]: [Bruno Caxias, João Vitor Maciel, Marcos Vinicius Faria, Vinicius Estevam]
 <!--[Grupo01]: [Josué Ramos Souza, Luiz Sampaio Horta, Mateus Lannes Cunha]
 [Grupo02]: [Nomes dos que participaram na avaliação]-->
