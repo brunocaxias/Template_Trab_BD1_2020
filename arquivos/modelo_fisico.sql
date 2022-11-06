@@ -28,9 +28,11 @@ CREATE TABLE dia_semana(
 -- Cria a tabela horario_funcionario
 CREATE TABLE horario_funcionario(
 	id SERIAL PRIMARY KEY NOT NULL,
+  	id_funcionario INTEGER NOT NULL,
 	id_dia_semana INTEGER NOT NULL, 
 	horario_entrada TIME,
 	horaio_saida TIME,
+  	FOREIGN KEY (id_funcionario) REFERENCES pessoa (id),
 	FOREIGN KEY (id_dia_semana) REFERENCES dia_semana (id)
 );
 
