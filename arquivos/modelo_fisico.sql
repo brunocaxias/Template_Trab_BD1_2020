@@ -8,7 +8,6 @@ CREATE TABLE pessoa(
 
 -- Cria a tabela cliente, herda da tabela pessoa
 CREATE TABLE cliente(
-	id SERIAL PRIMARY KEY NOT NULL,
 	convenio VARCHAR(50),
 	descricao VARCHAR(200)
 )
@@ -16,16 +15,27 @@ INHERITS (pessoa);
 
 -- Cria a tabela funcionario, herda da tabela pessoa
 CREATE TABLE funcionario(
-	id SERIAL PRIMARY KEY NOT NULL,
-	funcao VARCHAR(50),
-  	hora_chegada TIME,
-  	hora_saida TIME
+	funcao VARCHAR(50)
 )
 INHERITS (pessoa);
 
+-- Cria a tabela dia_semana
+CREATE TABLE dia_semana(
+	id SERIAL PRIMARY KEY NOT NULL,
+	dia_da_semana VARCHAR(50)
+);
+
+-- Cria a tabela horario_funcionario
+CREATE TABLE horario_funcionario(
+	id SERIAL PRIMARY KEY NOT NULL,
+	id_dia_semana INTEGER NOT NULL, 
+	horario_entrada TIME,
+	horaio_saida TIME,
+	FOREIGN KEY (id_dia_semana) REFERENCES dia_semana (id)
+);
+
 -- Cria a tabela medico, herda da tabela funcionario
 CREATE TABLE medico(
-	id SERIAL PRIMARY KEY NOT NULL,
 	crm VARCHAR(20),
 	especializacao VARCHAR(100)
 )
@@ -33,7 +43,6 @@ INHERITS (funcionario);
 
 -- Cria a tabela enfermeiro, herda da tabela funcionario
 CREATE TABLE enfermeiro(
-	id SERIAL PRIMARY KEY NOT NULL,
 	coren VARCHAR(20)
 )
 INHERITS (funcionario);
@@ -46,8 +55,8 @@ CREATE TABLE consulta(
   	data DATE,
   	hora TIME,
   	descricao VARCHAR(200),
-  	FOREIGN KEY (id_medico) REFERENCES medico (id),
- 	FOREIGN KEY (id_cliente) REFERENCES cliente (id)
+  	FOREIGN KEY (id_medico) REFERENCES pessoa (id),
+ 	FOREIGN KEY (id_cliente) REFERENCES pessoa (id)
 );
 
 -- Cria a tabela exame
@@ -66,7 +75,7 @@ CREATE TABLE consulta_exame(
   	hora TIME,
   	sintomas VARCHAR(200),
   	FOREIGN KEY (id_consulta) REFERENCES consulta (id),
- 	FOREIGN KEY (id_funcionario) REFERENCES funcionario (id),
+ 	FOREIGN KEY (id_funcionario) REFERENCES pessoa (id),
  	FOREIGN KEY (id_exame) REFERENCES exame (id)
 );
 
