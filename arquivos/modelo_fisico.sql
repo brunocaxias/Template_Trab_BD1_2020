@@ -19,23 +19,6 @@ CREATE TABLE funcionario(
 )
 INHERITS (pessoa);
 
--- Cria a tabela dia_semana
-CREATE TABLE dia_semana(
-	id SERIAL PRIMARY KEY NOT NULL,
-	dia_da_semana VARCHAR(50)
-);
-
--- Cria a tabela horario_funcionario
-CREATE TABLE horario_funcionario(
-	id SERIAL PRIMARY KEY NOT NULL,
-  	id_funcionario INTEGER NOT NULL,
-	id_dia_semana INTEGER NOT NULL, 
-	horario_entrada TIME,
-	horaio_saida TIME,
-  	FOREIGN KEY (id_funcionario) REFERENCES pessoa (id),
-	FOREIGN KEY (id_dia_semana) REFERENCES dia_semana (id)
-);
-
 -- Cria a tabela medico, herda da tabela funcionario
 CREATE TABLE medico(
 	crm VARCHAR(20),
@@ -49,6 +32,28 @@ CREATE TABLE enfermeiro(
 )
 INHERITS (funcionario);
 
+ALTER TABLE cliente ADD CONSTRAINT cliente_pk PRIMARY KEY(id);
+ALTER TABLE funcionario ADD CONSTRAINT funcionario_pk PRIMARY KEY(id);
+ALTER TABLE medico ADD CONSTRAINT medico_pk PRIMARY KEY(id);
+ALTER TABLE enfermeiro ADD CONSTRAINT enfermeiro_pk PRIMARY KEY(id);
+
+-- Cria a tabela dia_semana
+CREATE TABLE dia_semana(
+	id SERIAL PRIMARY KEY NOT NULL,
+	dia_da_semana VARCHAR(50)
+);
+
+-- Cria a tabela horario_funcionario
+CREATE TABLE horario_funcionario(
+	id SERIAL PRIMARY KEY NOT NULL,
+  	id_funcionario INTEGER NOT NULL,
+	id_dia_semana INTEGER NOT NULL, 
+	horario_entrada TIME,
+	horaio_saida TIME,
+  	FOREIGN KEY (id_funcionario) REFERENCES funcionario (id),
+	FOREIGN KEY (id_dia_semana) REFERENCES dia_semana (id)
+);
+
 -- Cria a tabela consulta
 CREATE TABLE consulta(
 	id SERIAL PRIMARY KEY NOT NULL,
@@ -56,8 +61,8 @@ CREATE TABLE consulta(
   	id_cliente INTEGER NOT NULL,
 	data_hora TIMESTAMP,
   	descricao VARCHAR(200),
-  	FOREIGN KEY (id_medico) REFERENCES pessoa (id),
- 	FOREIGN KEY (id_cliente) REFERENCES pessoa (id)
+  	FOREIGN KEY (id_medico) REFERENCES medico (id),
+ 	FOREIGN KEY (id_cliente) REFERENCES cliente (id)
 );
 
 -- Cria a tabela exame
@@ -75,7 +80,7 @@ CREATE TABLE consulta_exame(
 	data_hora TIMESTAMP,
   	sintomas VARCHAR(200),
   	FOREIGN KEY (id_consulta) REFERENCES consulta (id),
- 	FOREIGN KEY (id_funcionario) REFERENCES pessoa (id),
+ 	FOREIGN KEY (id_funcionario) REFERENCES funcionario (id),
  	FOREIGN KEY (id_exame) REFERENCES exame (id)
 );
 
