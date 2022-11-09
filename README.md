@@ -108,7 +108,7 @@ b) verificação de correspondencia com o modelo conceitual
 (não serão aceitos modelos que não estejam em conformidade)
 -->
            
-![Modelo Lógico](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo_logicoV2.png?raw=true)
+![Modelo Lógico](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo_logicoV3.png?raw=true)
 
 ### 7	MODELO FÍSICO<br>
 [Modelo Físico](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/arquivos/modelo_fisico.sql)
