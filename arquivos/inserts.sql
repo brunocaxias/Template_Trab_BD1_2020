@@ -14,8 +14,8 @@ VALUES ('Rosa', '16753478945', '08-07-1980', 'Empresarial', 'Diabético'),
         ('Marcelo', '52035256233', '05-18-1976', 'Empresarial', 'Diabético');
 
 INSERT into cliente (nome, cpf, data_nascimento, convenio)
-VALUES	('Vinicius', '38804589750', '03-05-2000', 'Familiar')
-        ('João', '47625034072', '11-01-1999', 'Pessoa física')
+VALUES	('Vinicius', '38804589750', '03-05-2000', 'Familiar'),
+        ('João', '47625034072', '11-01-1999', 'Pessoa física');
 
 INSERT INTO medicamento(nome_comercial, principio_ativo)
 VALUES ('Gluaprotin', 'Cloro'),
