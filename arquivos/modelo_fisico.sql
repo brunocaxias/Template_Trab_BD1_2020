@@ -8,6 +8,7 @@ CREATE TABLE pessoa(
 
 -- Cria a tabela cliente, herda da tabela pessoa
 CREATE TABLE cliente(
+  	like pessoa INCLUDING ALL,
 	convenio VARCHAR(50),
 	descricao VARCHAR(200)
 )
@@ -15,12 +16,14 @@ INHERITS (pessoa);
 
 -- Cria a tabela funcionario, herda da tabela pessoa
 CREATE TABLE funcionario(
+  like pessoa INCLUDING ALL,
 	funcao VARCHAR(50)
 )
 INHERITS (pessoa);
 
 -- Cria a tabela medico, herda da tabela funcionario
 CREATE TABLE medico(
+  like funcionario INCLUDING ALL,
 	crm VARCHAR(20),
 	especializacao VARCHAR(100)
 )
@@ -28,14 +31,11 @@ INHERITS (funcionario);
 
 -- Cria a tabela enfermeiro, herda da tabela funcionario
 CREATE TABLE enfermeiro(
+  like funcionario INCLUDING ALL,
 	coren VARCHAR(20)
 )
 INHERITS (funcionario);
 
-ALTER TABLE cliente ADD CONSTRAINT cliente_pk PRIMARY KEY(id);
-ALTER TABLE funcionario ADD CONSTRAINT funcionario_pk PRIMARY KEY(id);
-ALTER TABLE medico ADD CONSTRAINT medico_pk PRIMARY KEY(id);
-ALTER TABLE enfermeiro ADD CONSTRAINT enfermeiro_pk PRIMARY KEY(id);
 
 -- Cria a tabela dia_semana
 CREATE TABLE dia_semana(
