@@ -66,7 +66,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   -->
         
-![Modelo Conceitual](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo-conceitual.png?raw=true)
+![Modelo Conceitual](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo_conceitualV2.png?raw=true)
     
     
         
@@ -108,7 +108,7 @@ b) verificação de correspondencia com o modelo conceitual
 (não serão aceitos modelos que não estejam em conformidade)
 -->
            
-![Modelo Lógico](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo_logico.png?raw=true)
+![Modelo Lógico](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo_logicoV2.png?raw=true)
 
 ### 7	MODELO FÍSICO<br>
 [Modelo Físico](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/arquivos/modelo_fisico.sql)
