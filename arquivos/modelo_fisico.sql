@@ -15,7 +15,8 @@ INHERITS (pessoa);
 
 -- Cria a tabela funcionario, herda da tabela pessoa
 CREATE TABLE funcionario(
-	funcao VARCHAR(50)
+	funcao VARCHAR(50),
+	dia_semana int
 )
 INHERITS (pessoa);
 
@@ -100,3 +101,5 @@ CREATE TABLE consulta_medicamento(
   	FOREIGN KEY (id_medicamento) REFERENCES medicamento (id),
  	FOREIGN KEY (id_consulta) REFERENCES consulta (id)
 );
+
+ALTER TABLE FUNCIONARIO ADD CONSTRAINT FK_DIA_SEMANA FOREIGN KEY (dia_semana) REFERENCES dia_semana(id);
