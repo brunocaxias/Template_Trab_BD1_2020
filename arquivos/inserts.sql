@@ -93,3 +93,40 @@ VALUES (1, 2, '09:00:00', '18:00:00'),
 	(4, 4, '15:00:00', '00:20:00'),
 	(4, 5, '09:00:00', '18:00:00'),
 	(4, 6, '15:00:00', '00:20:00');
+
+INSERT INTO consulta(id_medico, id_cliente, data_hora, descricao)
+VALUES (1, 11,'09-04-2021	10:09:00', 'Checar alergias ao medicamento'),
+		(1, 5,'10-07-2019	11:30:00', 'Paciente fobia a sangue'),
+		(1, 7,'09-27-2020	12:51:00', 'Verificar dia que será possível realizar o exame'),
+		(1, 8,'11-08-2018	14:12:00', 'Checar alergias ao medicamento'),
+		(2, 5,'08-18-2019	15:33:00', 'Paciente fobia a sangue'),
+		(2, 10,'05-28-2020	16:54:00', 'Verificar dia que será possível realizar o exame'),
+		(2, 7,'03-06-2021	18:15:00', 'Checar alergias ao medicamento'),
+		(1, 11,'12-14-2021	19:36:00', 'Paciente fobia a sangue'),
+		(2, 9,'07-23-2019	20:57:00', 'Verificar dia que será possível realizar o exame'),
+		(1, 6,'02-28-2017	22:18:00', 'Checar alergias ao medicamento');
+
+
+INSERT INTO consulta_exame(id_consulta, id_funcionario, id_exame, data_hora, sintomas)
+VALUES (1, 4, 1, '11-08-2018 08:09:00', 'Febre'),
+		(2, 2, 2,'08-18-2019 09:30:00', 'Dores de cabeça'),
+		(3, 1, 3,'05-27-2020 10:51:00', 'Inflamação'),
+		(4, 1, 4,'03-06-2021 12:12:00', 'Febre'),
+		(5, 3, 1,'12-14-2021 13:33:00', 'Dores de cabeça'),
+		(6, 3, 1,'06-01-2018 14:54:00', 'Inflamação'),
+		(7, 2, 2,'07-12-2019 16:15:00', 'Febre'),
+		(8, 4, 8,'08-21-2020 07:07:00', 'Dores de cabeça'),
+		(9, 1, 9,'10-01-2021 21:59:00', 'Inflamação'),
+		(10, 2, 10,'11-11-2022	12:51:00', 'Febre');
+
+INSERT INTO consulta_medicamento(id_medicamento, id_consulta, quantidade)
+VALUES (1, 1, 1),
+	(2, 2, 1),
+	(3, 3, 2),
+	(4, 4, 8),
+	(6, 5, 2),
+	(6, 6, 9),
+	(7, 7, 10),
+	(8, 8, 4),
+	(9, 9, 5),
+	(10, 10, 6);
