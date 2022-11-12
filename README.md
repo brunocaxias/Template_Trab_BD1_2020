@@ -86,18 +86,75 @@ EXEMPLO:
 CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
 CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>-->
 
-| Tabela | Descrição | Herança |
+| Tabela | Atributos | Descrição |
 |:-------|:----------|:--------|
-| PESSOA |Armazena as informações relativas a pessoa|   |
-| CLIENTE |Armazena as informações relativas ao cliente| PESSOA |
-| FUNCIONARIO |Armazena as informações relativas ao funcionário| PESSOA |
-| MEDICO |Armazena as informações relativas ao médico| FUNCIONARIO |
-| ENFERMEIRO |Armazena as informações relativas ao enfermeiro| FUNCIONARIO |
-| CONSULTA |Armazena as informações relativas a consulta|   |
-| EXAME |Armazena as informações relativas ao exame|   |
-| MEDICAMENTO |Armazena as informações relativas ao medicamento|   |
-| CONSULTA_MEDICAMENTO |Armazena as informações relativas aos medicamentos receitados na consulta|   |
-| CONSULTA_EXAME |Armazena as informações relativas aos exames solicitados na consulta|   |
+| PESSOA ||Tabela que armazena dados comuns a clientes e funcionários|   
+| | id |identificador da pessoa|   
+| | nome |nome da pessoa|   
+| | cpf |cpf da pessoa|   
+| | data_nascimento|data de nascimento da pessoa|   
+| CLIENTE ||Tabela que armazena dados dos clintes|   
+| | id |identificador do cliente|   
+| | nome |nome do clinte|   
+| | cpf |cpf do clinte|   
+| | data_nascimento|data de nascimento do clinte| 
+| | convenio  |convênio o qual o cliente faz parte|   
+| | descricao  |descrição (condição de saúde ou deficiência)|   
+| FUNCIONARIO ||Tabela que armazena dados dos funcionário|   
+| | id |identificador do funcionário|   
+| | nome |nome do funcionário|   
+| | cpf |cpf do funcionário|   
+| | data_nascimento|data de nascimento do funcionário| 
+| | funcao  |função do funcionário|   
+| MEDICO ||Tabela que armazena dados dos médicos|   
+| | id |identificador do médico|   
+| | nome |nome do médico|   
+| | cpf |cpf do médico|   
+| | data_nascimento|data de nascimento do médico| 
+| | funcao  |função do médico|
+| | crm |crm do médico| 
+| | especializacao  |especialização do médico|  
+| ENFERMEIRO ||Tabela que armazena dados dos enfermeiros|   
+| | id |identificador do enfermeiro|   
+| | nome |nome do enfermeiro|   
+| | cpf |cpf do enfermeiro|   
+| | data_nascimento|data de nascimento do enfermeiro| 
+| | funcao  |função do enfermeiro|
+| | cofen |cofen do enfermeiro| 
+| DIA_SEMANA ||Tabela que armazena os dias da semana|   
+| | id |identificador do dia da semana|   
+| | dia_da_semana |dia da semana|   
+| HORARIO_FUNCIONARIO ||Tabela que armazena os dias da semana|   
+| | id |identificador do dia do horario funcionário|   
+| | id_funcionario |identificador do funcionário|   
+| | id_dia_semana  |identificador do dia da semana|   
+| | horario_entrada|horário de entrada do funcionário|    
+| | horario_saida|horário de saída do funcionário| 
+| EXAMES ||Tabela que armazena os tipos de exames|   
+| | id |identificador do exeme|   
+| | tipo |nome do exame|   
+| MEDICAMENTO ||Tabela que armazena os medicamentos|   
+| | id |identificador do medicamento|   
+| | principio_ativo |princípio ativo do medicamento| 
+| | nome_comercial |nome comercial do medicamento|
+| CONSULTA ||Tabela que armazena as consultas|   
+| | id |identificador da consulta|   
+| | id_medico|identificador do médico| 
+| | id_cliente |identificador do cliente|
+| | data_hora |data e hora da consulta| 
+| | descrição |descrição da consulta|
+| CONSULTA_EXAME ||Tabela que armazena os exames solicitados pós consulta|   
+| | id |identificador do exame|   
+| | id_consulta|identificador da consulta| 
+| | id_funcionario |identificador do funcionário|
+| | id_exame|identificador do tipo do exame| 
+| | data_hora |data e hora do exame|
+| | sintomas |sintomas do paciente durante o exame|
+| CONSULTA_MEDICAMENTO ||Tabela que armazena os medicamentos receitados na consulta|   
+| | id |identificador do consulta medicamento|   
+| | id_medicamento|identificador do medicamento| 
+| | id_consulta |identificador da consulta|
+| | quantidade |quantidade do medicamento| 
 
 
 ### 6	MODELO LÓGICO<br>
