@@ -182,6 +182,10 @@ b) verificação de correspondencia com o modelo conceitual
 [Arquivo de Inserts ](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/arquivos/inserts.sql)
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+
+[Collab](https://colab.research.google.com/drive/1nprYC6m91MhwLhZQlawwakeBScpADP_U?usp=sharing)
+
+
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
