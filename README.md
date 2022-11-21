@@ -183,13 +183,13 @@ b) verificação de correspondencia com o modelo conceitual
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
-[Collab](https://colab.research.google.com/drive/1nprYC6m91MhwLhZQlawwakeBScpADP_U?usp=sharing)
-
-
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
+
+[Colab](https://colab.research.google.com/drive/1miWUcBsCHu60icMV-EysSbvPrKeIDoJu?usp=sharing)
+
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
