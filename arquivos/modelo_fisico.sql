@@ -49,7 +49,7 @@ CREATE TABLE horario_funcionario(
   	id_funcionario INTEGER NOT NULL,
 	id_dia_semana INTEGER NOT NULL, 
 	horario_entrada TIME,
-	horaio_saida TIME,
+	horario_saida TIME,
   	FOREIGN KEY (id_funcionario) REFERENCES funcionario (id),
 	FOREIGN KEY (id_dia_semana) REFERENCES dia_semana (id)
 );
