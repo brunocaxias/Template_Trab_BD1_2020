@@ -238,6 +238,7 @@ b) verificação de correspondencia com o modelo conceitual
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 
 #### a) Modelo (pecha kucha)<br>
+ 🖥️ [Link da Apresentação](https://docs.google.com/presentation/d/127JSILXe7SJ0EqeJY80fYoxTGXuRla-8/edit?usp=sharing&ouid=115287138727499050945&rtpof=true&sd=true)
 #### b) Tempo de apresentação 6:40 
 
 ># Marco de Entrega 03: Itens 10 e 11<br>
