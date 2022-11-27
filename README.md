@@ -69,8 +69,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.--
 ![Modelo Conceitual](https://github.com/brunocaxias/Trab_BD1_2022-2/blob/master/images/modelo_conceitualV3.png?raw=true)
     
     
-        
-    
+
 #### 5.1 Validação do Modelo Conceitual
 [Grupo01]: [Josué Ramos Souza, Luiz Sampaio Horta, Mateus Lannes Cunha]
 
@@ -188,7 +187,7 @@ b) verificação de correspondencia com o modelo conceitual
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
-[Colab](https://colab.research.google.com/drive/1miWUcBsCHu60icMV-EysSbvPrKeIDoJu?usp=sharing)
+🖥️ [Link do Colab](https://colab.research.google.com/drive/1miWUcBsCHu60icMV-EysSbvPrKeIDoJu?usp=sharing)
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
@@ -227,10 +226,13 @@ b) verificação de correspondencia com o modelo conceitual
 
 ### 10 RELATÓRIOS E GRÁFICOS
 
+🖥️ [Link do Colab](https://colab.research.google.com/drive/1_lROnqJM9EPI8jT0fqVm3WwerrJqs7_G?usp=sharing)
+
+<!--
 #### a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
 #### b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
 #### OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Mantenha o foco nos 5 principais relatórios/resultados visando obter o melhor resultado possível.
-
+-->
     
 
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
@@ -244,7 +246,7 @@ b) verificação de correspondencia com o modelo conceitual
 <br> 
 
 
-
+<!--
 ### 12 FORMATACAO NO GIT:<br> 
 https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
@@ -280,5 +282,5 @@ http://www.sis4.com/brModelo/download.html
 
 Link para curso de GIT<br>
 ![https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Title")
-
+-->
 
