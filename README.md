@@ -240,7 +240,7 @@ b) verificação de correspondencia com o modelo conceitual
 #### a) Modelo (pecha kucha)<br>
  🖥️ [Link da Apresentação](https://docs.google.com/presentation/d/127JSILXe7SJ0EqeJY80fYoxTGXuRla-8/edit?usp=sharing&ouid=115287138727499050945&rtpof=true&sd=true)
 #### b) Tempo de apresentação 6:40 
-
+ 🖥️ [Link da Apresentação em Vídeo](https://youtu.be/qBCOCI95vKI)
 ># Marco de Entrega 03: Itens 10 e 11<br>
 <br>
 <br>
